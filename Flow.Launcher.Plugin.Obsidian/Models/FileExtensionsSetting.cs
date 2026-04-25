@@ -31,7 +31,7 @@ public class FileExtensionsSetting
 
     // Extensions who are not in a group
     public static HashSet<FileExtension> DefaultExtensions { get; } =
-        [new("Markdown", ".md"), new("Excalidraw", ".excalidraw"), new("Canvas", ".canvas")];
+        [new("Markdown", ".md"), new("Excalidraw", ".excalidraw"), new("Canvas", ".canvas"), new("PDF", ".pdf")];
 
     public ISet<string> GetAllSuffix()
     {
